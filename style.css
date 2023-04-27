@@ -1,0 +1,65 @@
+a:link{
+	text-decoration: none;
+	color: #000077;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #000077;
+}
+
+body{
+	width: 80%;
+	max-width: 850px;
+	margin: 20px auto;
+	border: solid grey 20px;
+	padding: 20px;
+	font-family: Source Sans Pro;
+}
+
+h1{
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+
+table{
+	margin: auto;
+	border-spacing: 40px;
+}
+
+table:hover > tbody > tr > td {
+	opacity: 0.5;
+}
+
+table:hover > tbody > tr > td:hover{
+	opacity: 1.0;
+}
+
+td{
+	background: #dddddd;
+	height: 125px;
+	width: 125px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+
+td:hover{
+	background: #999999;
+	font-weight: bold;
+	opacity: 1.0;
+}
+
+p{
+	text-align: center;
+	line-height: 0.8;
+}
+
+.homeLink{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pageHeader{
+	text-align: center;
+}
